@@ -77,8 +77,9 @@
 .fit{
     position: relative;
 }
-.fit div{
-    animation: fit 1s linear ;
+.fit:before{
+    content: 'Fit';
+    animation: fit 2s linear ;
     color: #f35b74;
     position: absolute;
     left: 0;
