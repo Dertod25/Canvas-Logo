@@ -61,7 +61,6 @@
     border-radius: 0.25rem;
     height: 0.5rem;
     width: 110%;
-/*    visibility: hidden;*/
 }
 
 .preload-logo img {
@@ -120,17 +119,4 @@
     80% {width:4rem;height: 4rem;}
     90% {width:6rem;height: 6rem;}
     100% {width:4rem;height: 4rem;}
-
-
-}
-@keyframes sk-scaleout {
-    0% {
-        -webkit-transform: scale(0);
-        transform: scale(0);
-    }
-    100% {
-        -webkit-transform: scale(1.0);
-        opacity: 0;
-        transform: scale(1.0);
-    }
 }
